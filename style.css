@@ -1,0 +1,183 @@
+* {
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.navbar {
+    background: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 15px;
+    
+}
+
+.navdivtop {
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    width: 99%;
+    position: fixed;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    border :1px solid red;
+    width: 99%;
+    height: 200px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 25px;
+}
+
+
+li a {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+a:visited {
+    color: rgb(8, 78, 46);
+}
+
+.ok{
+    margin-top: -10px;
+}
+
+.search-bar{
+    justify-content: center;
+    display: flex;
+    height: 50px; 
+    overflow: auto;
+}
+
+.sb{
+    padding: 15px;
+}
+
+.sbb{
+    background-color: black;
+}
+
+.para{
+   padding-right: 20px;
+}
+
+.sell_button{
+    border: 1;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.add{
+    padding-left: 25px;
+    
+}
+
+.items{
+    border: 2px solid rgb(189, 183, 183);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.one{
+    border-width: 2px;
+    border-color: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #000000;
+}
+
+.footer-content1 {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    font-size: 14px;
+    padding-left: 100px;
+    
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #3045c0;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i {
+    color: rgb(0, 0, 0);
+}
+
+
+.footer-bottom1 {
+    padding-left: 1000px;
+    background-color: rgb(23, 88, 64);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 98%
+}
+
+.footer-bottom2 {
+    padding-left: 1000px;
+    background-color: rgb(23, 88, 64);
+    color: white;
+    padding-bottom: 10px;
+    width: 98%
+}
+
+
